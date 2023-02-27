@@ -20,6 +20,24 @@ reset
     position: relative;
 }
 
+.thumbnails{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.thumbnails .img{
+    max-height: 100px;
+    display: block;
+    opacity: 0.5;
+}
+
+.thumbnails .img.show{
+    opacity: 1;
+}
+
 .item{
     height: 100%;
 }
